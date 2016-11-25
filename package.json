@@ -1,0 +1,13 @@
+{
+  "name": "travis-test-001",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "Matt Hova",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "dependencies": {}
+}
